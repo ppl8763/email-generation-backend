@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://email-generator-frontend-5a8z.onrender.com"],  # ✅ no trailing slash
+    allow_origins=["https://email-generation-backend-2.onrender.com"],  # ✅ no trailing slash
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
